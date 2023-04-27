@@ -1,0 +1,115 @@
+<document unique_id="62e490b6-7683-435c-98c9-ac644e00f498" version="6" os="windows" original_document_path="C:\Users\sjoel3\OneDrive - JC Penney\Desktop\LIVE sttreaming\MyDocument.wcst">
+	<open_windows>
+		<vamWindowGlass frame="25,30,1526,951" asset_icon_scale="0.5" asset_icon_updateFPS="15" selected_layer="1836282932" vam_main_splitter="0.6" eWindow_win_showcmd="3"/>
+	</open_windows>
+	<vam_state master_audio_shown="1000" preview_audio_monitor="0" master_audio_monitor="1" show_preview_edit_panel="1" preview_shown="1" live_shown="1" transition_0_unique_id="-- CUT --" transition_1_unique_id="-- SMOOTH --" transition_2_unique_id="-- SMOOTH --" live_preview_split_open_percent="0.504981"/>
+	<transition_data/>
+	<chroma_key_data/>
+	<advanced_output>
+		<output_list output_last_selected="fed908de-bd79-4210-a636-e0504ec62b72">
+			<output output_type="2" output_branding="youtube" output_display_group_name="YouTube" output_display_name="FGCLC Bible Study" output_guid="46f54eae-387b-49b8-97af-99eff108485f" unique_id="2" audio_output_track_mask="1" output_presetname="YouTube: 720p30 Intel QuickSync (1250 Kbps)" use_backup="0" start_event_upon_streaming="0" output_is_youtube_stream_now="1" flash_streaming_delay="0" output_enabled="1" destination_location_id="6QtOTuUo+TqkScrzyhwRZaHZsqxZox/Ow0rvOXg/QrFIQvf/lwpyDBwi+djqnCGrusQDLXBTzbPs3u89/wzvwluFrU25OGAbPc+1yu+zTBIjyi/C52OdU/Au9DYQJJP4HOLtgCJosVgDKwkrCQtlF0jIaG93WSUDXbeE2fG/NnPKc1VG0/fDg/Fhnypb1ATiIcPwQ7nMR4u6W69a+RqES3tw7U0ruBEnJ3A=0470" destination_update_id="x24SM5gLhOpXalRsPs5mmWf3oV7Tv7EsMvgjePryZEQuwI1+Y5b7Zfa5A5dTTfCiyuZPoIQOnTOSEuVIHucCXbKIPQd2pXNB6N5yErsH084ODlPZiARdIwTPaiFQXPw+87qWYKeuhw==0336" output_password="1//0gBNtzcBwsfJWCgYIARAAGBASNwF-L9Ir8DLvmebiqOERB-tNJDND56j0Ex8xcNXBY3yhzo_DCkae7aZ2JZLn61HgqLCgxcihnVM" output_username="FGCLC bangalore" event_id="_Tl8bmN3CE0" output_url="rtmp://a.rtmp.youtube.com/live2" output_location="x8p9-mpgd-cuep-ac90" youtube_title="FGCLC Bible Study" selected_event_index="0" output_location_with_bitrate="x8p9-mpgd-cuep-ac90" output_settings_complete="1" output_id="fed908de-bd79-4210-a636-e0504ec62b72"/>
+		</output_list>
+	</advanced_output>
+	<output_presets>
+		<preset output_presetname="YouTube: 720p30 Intel QuickSync (1250 Kbps)" show_in_gui="1" group="youtube">
+			<movie format="Flash" output_system="">
+				<track type="1986618479" mo_width="1280" mo_height="720" colourspace="846624121" mo_enabled="1" codecname="Intel QuickSync H.264" fps="30" compressed="1" timescale="3000" target_bit_rate="1250" profile="1835100526" limit_bit_rate="0" key_frame_rate="60" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="quicksync_1" x264_gpu_on="0" x264_commandline="--vbv-bufsize 2000" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="1" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="2" samplerate="44100" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="44100"/>
+			</movie>
+		</preset>
+		<preset output_presetname="Intensity Shuttle" show_in_gui="0" group="BlackMagicOutput">
+			<movie format="BlackMagicOutput" output_system="BlackMagicOutput" output_sdk_preset_xml="Intensity ShuttlepresetSettings" output_sdk_guid="866b3f8c-b3aa-4e1e-89e7-fa4e76a59c99" is_dynamic="1">
+				<track type="1986618479" mo_width="100" mo_height="100" colourspace="846624121" mo_enabled="1" codecname="H.264" fps="15" compressed="1" timescale="1500" target_bit_rate="500" profile="1835100526" limit_bit_rate="0" key_frame_rate="240" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="" x264_gpu_on="0" x264_commandline="" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="0" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="2" samplerate="44100" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="44100"/>
+			</movie>
+		</preset>
+		<preset output_presetname="net.telestream.NDIOutput" show_in_gui="0" group="NDIOutput">
+			<movie format="NDIOutput" output_system="NDIOutput" output_sdk_preset_xml="ndiout_preset_token" output_sdk_guid="821912a9-4ae2-4d61-920d-4af491db7667" is_dynamic="1">
+				<track type="1986618479" mo_width="100" mo_height="100" colourspace="846624121" mo_enabled="1" codecname="H.264" fps="15" compressed="1" timescale="1500" target_bit_rate="500" profile="1835100526" limit_bit_rate="0" key_frame_rate="240" timecode_interval="30" timecode_on="0" FlashVideoDisableH264BFrames="0" codec_quality="" x264_gpu_on="0" x264_commandline="" absolute_time_stamps="0" key_frame_aligned="0" strict_cbr="0" main_concept="1"/>
+				<track type="1635083375" bps="16" busses="1" channels="2" samplerate="44100" mo_enabled="1" codecname="MPEG-4 Audio" target_bit_rate="128" timescale="44100"/>
+			</movie>
+		</preset>
+	</output_presets>
+	<iso_outputs>
+		<xml_tag/>
+	</iso_outputs>
+	<multimonitor/>
+	<volume value="0.715379"/>
+	<preview_volume value="0.715379"/>
+	<auto_live value="0"/>
+	<flip_flop value="0"/>
+	<output_annotations/>
+	<transition_duration/>
+	<visual_style/>
+	<single_output/>
+	<media_directories import_video_default_dir="C:\Users\sjoel3\OneDrive - JC Penney\Desktop"/>
+	<layer_names/>
+	<layer_scales layer_0="0.5" layer_1="0.5" layer_2="0.5" layer_3="0.5" layer_4="0.5"/>
+	<layer_visible/>
+	<sections/>
+	<aspectRatio type="1098216515" custom_width="1280" custom_height="720"/>
+	<shot_key_map/>
+	<shotsLiveWhenSaved>
+		<xml_tag vaLayerIndex="1" beLayerEnum="2" vaLayerEnum="1836282929" unique_id="e225d031-d0da-41d1-a6e3-744a66ffe1ec_shot"/>
+		<xml_tag vaLayerIndex="2" beLayerEnum="3" vaLayerEnum="1836282930" unique_id="e41d4acb-9874-4f14-bdf8-11311590f591_shot"/>
+		<xml_tag vaLayerIndex="3" beLayerEnum="4" vaLayerEnum="1836282931" unique_id="3268e7ae-d18d-4192-bd10-2ecd80b9f94a_shot"/>
+		<xml_tag vaLayerIndex="4" beLayerEnum="5" vaLayerEnum="1836282932" unique_id="d3df6386-825b-4b89-866e-6441591660f1_shot"/>
+	</shotsLiveWhenSaved>
+	<source_sdk_settings/>
+	<social_media/>
+	<source_configurations/>
+	<document_thumbnail thumbnail="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"/>
+	<game_overlay_position/>
+	<screename/>
+	<assets>
+		<asset name="Clear Layer" unique_id="eae9e899-a23f-47bf-928f-eb62e1adf4ad_shot" type="shot" media-type="9" vam_state="1" created_for_layer="5" blank_shot="1" visible="1"/>
+		<asset name="Clear Layer" unique_id="e225d031-d0da-41d1-a6e3-744a66ffe1ec_shot" type="shot" media-type="9" vam_state="7" created_for_layer="1" blank_shot="1" visible="1"/>
+		<asset name="Clear Layer" unique_id="9a7a5c01-8bf1-4c3a-93c1-f50d79fedec9_shot" type="shot" media-type="9" vam_state="1" created_for_layer="2" blank_shot="1" visible="1"/>
+		<asset name="Clear Layer" unique_id="3268e7ae-d18d-4192-bd10-2ecd80b9f94a_shot" type="shot" media-type="9" vam_state="7" created_for_layer="3" blank_shot="1" visible="1"/>
+		<asset name="Clear Layer" unique_id="d3df6386-825b-4b89-866e-6441591660f1_shot" type="shot" media-type="9" vam_state="7" created_for_layer="4" blank_shot="1" visible="1"/>
+		<asset name="church file 720p.mp4" url="C:\Users\sjoel3\OneDrive - JC Penney\Desktop\church file 720p.mp4" type="file" video_tracks="1" audio_tracks="1" media-type="1" unique_id="e4878883-31a8-47ba-9617-236a0ad6c098_church file 720p.mp4" timescale="44100" duration="5643859" short_name="church file 720p.mp4" raster_type="0" square_pixel_width="1280" square_pixel_height="720"/>
+		<asset name="church file 720p.mp4" unique_id="a2101183-3418-4f48-9d05-fcd73962f324_shot" type="shot" media-type="9" vam_state="8" video_tracks="1" still_image_tracks="0" veil_track_count="0" alpha_track_count="0" audio_tracks="1" created_for_layer="1" visible="1"/>
+		<asset name="small-logok11 (1).png" url="C:\Users\sjoel3\OneDrive - JC Penney\Desktop\small-logok11 (1).png" type="file" still_image_tracks="1" media-type="1" unique_id="e20deac2-ab1c-4d6d-b9b4-d0bb38984c30_small-logok11 (1).png" alpha_track_count="1" raster_type="1919378017" square_pixel_width="99" square_pixel_height="144"/>
+		<asset name="small-logok11 (1).png" unique_id="e41d4acb-9874-4f14-bdf8-11311590f591_shot" type="shot" media-type="9" vam_state="6" veil_track_count="0" alpha_track_count="1" audio_tracks="0" video_tracks="0" still_image_tracks="1" created_for_layer="2" visible="1"/>
+		<asset name="MyStream_1.mp4" url="C:\Users\sjoel3\OneDrive - JC Penney\Desktop\MyStream_1.mp4" type="file" video_tracks="1" audio_tracks="1" media-type="1" unique_id="2a590067-02ca-4b78-b6e4-2804bedd16fe_MyStream_1.mp4" timescale="1" duration="0" square_pixel_height="1080" square_pixel_width="1920" raster_type="846624121"/>
+		<asset media-type="4" type="vaSourcesManager" url="vaSourcesManager::URL" unique_id="Intensity Shuttle_1" name="Intensity Shuttle" video_tracks="1" audio_tracks="1" alpha_track_count="1" sourceGUID="F5568E19-5437-4088-8EAD-F1A9813CA4DD" short_name="Intensity Shuttle" square_pixel_width="1920" square_pixel_height="1080" raster_type="846624121"/>
+		<asset name="Intensity Shuttle" unique_id="c52129f5-3a19-47c7-9da4-8c327643e951_shot" type="shot" media-type="9" vam_state="8" created_for_layer="4" veil_track_count="0" alpha_track_count="1" audio_tracks="2" video_tracks="1" still_image_tracks="0" visible="1"/>
+		<asset type="capture" unique_id="Microphone (X18/XR18)::" name="Microphone (X18/XR18)" url="Microphone (X18/XR18)" excluded="0" format="audio" audio_tracks="1" media-type="3" short_name="Microphone (X18/XR18)" isusb="0"/>
+	</assets>
+	<xml_tag/>
+	<shots>
+		<shot event_type="2" unique_id="eae9e899-a23f-47bf-928f-eb62e1adf4ad_shot"/>
+		<shot event_type="2" unique_id="e225d031-d0da-41d1-a6e3-744a66ffe1ec_shot"/>
+		<shot event_type="2" unique_id="9a7a5c01-8bf1-4c3a-93c1-f50d79fedec9_shot"/>
+		<shot event_type="2" unique_id="3268e7ae-d18d-4192-bd10-2ecd80b9f94a_shot"/>
+		<shot event_type="2" unique_id="d3df6386-825b-4b89-866e-6441591660f1_shot"/>
+		<shot event_type="2" unique_id="a2101183-3418-4f48-9d05-fcd73962f324_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" unique_id="e4878883-31a8-47ba-9617-236a0ad6c098_church file 720p.mp4">
+					<event event_type="1" default_action="2" play_flags="6" channel_id="1" ro_media_type="1986618479" ro_playhead="0" action_time="61266667" action_duration="0" action_flags="24"/>
+					<event event_type="1" default_action="2" play_flags="6" channel_id="1" ro_media_type="1635083375" ro_playhead="0" action_time="61266667" action_duration="0" action_flags="24"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="e41d4acb-9874-4f14-bdf8-11311590f591_shot">
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="0.0574357,0.148521" obj_pos="-3.27764,1.897" scale_ratio="1" ro_user_scale="0.742603,0.742603" unique_id="e20deac2-ab1c-4d6d-b9b4-d0bb38984c30_small-logok11 (1).png">
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+		<shot event_type="2" unique_id="c52129f5-3a19-47c7-9da4-8c327643e951_shot">
+			<event event_type="4" zorder="1" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" unique_id="Microphone (X18/XR18)::">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+				</event>
+			</event>
+			<event event_type="4" zorder="5" unique_id="one_quad">
+				<event event_type="2" channel_id="1" respect_actual_size="1" ro_respect_aspect_ratio="1" obj_scale="1.5,1.5" volume="0" unique_id="Intensity Shuttle_1">
+					<event event_type="1" channel_id="1" ro_media_type="1635083375"/>
+					<event event_type="1" channel_id="1" ro_media_type="1986618479"/>
+				</event>
+			</event>
+		</shot>
+	</shots>
+</document>
