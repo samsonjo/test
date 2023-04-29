@@ -240,3 +240,5 @@ sudo sysctl -w vm.max_map_count=262144
 ./tomcat8/apache-tomcat-8.5.56/bin/startup.sh
 ./sonarqube/sonarqube-7.5/bin/linux-x86-64/sonar.sh start
 ./gitea/gitea &
+
+#test
