@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-jenkins-python'
+            label 'python'
             }
       }
     triggers {
